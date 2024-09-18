@@ -44,7 +44,7 @@ function actualizarListaGastos() {
        listaElementos.innerHTML = htmlLista;
        totalElementos.innerHTML = totalGastos.toFixed(2);
 if (totalGastos > 150){
-    alert("Cuidado estas gastando mas de 150 Pesos");
+    alert("Cuidado estas gastando mas de 500000 Pesos");
 }
 
        limpiar();
