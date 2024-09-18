@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background: url('../'), linear-gradient( 93.2deg,  rgb(62, 62, 62) 14.4%, rgb(0, 0, 0) 90.8% );
+
+
+
+
+
+    background-size: auto;
+    background-repeat: no-repeat;
+    /* Hace que la imagen cubra todo el área del elemento */
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+}
+
+input[type="text"],
+input[type="number"] {
+    font-size: 1rem;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 40px;
+    width: fit-content;
+    background-color: #1875E8;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    max-height: fit-content;
+    overflow-y: auto;
+    width: 100%;
+}
+
+ul li {
+    padding: 10px;
+    background-color: rgb(55, 55, 57);
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    top: 110px;
+    left: 120px;
+    width: 1200px;
+    min-height: 80vh;
+   margin-top: 85px;
+   margin-left: 245px;
+    
+
+    border-radius: 24px;
+    color: white;
+    box-shadow: 4px 4px 20px 0px #01080E26;
+ 
+    
+}
+
+.container {
+    display: flex;
+    gap: 45px;
+    width: 860px;
+    align-items: center;
+    flex-direction: column;
+    padding: 45px;
+    opacity: 0px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 50%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    gap: 20px;
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    
+
+}
